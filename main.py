@@ -81,7 +81,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await branches(update, context)
 
 def main():
-    keep_alive()  # تشغيل السيرفر الخاص بالبوت
 
     app = Application.builder().token(TOKEN).build()
 
@@ -99,4 +98,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
