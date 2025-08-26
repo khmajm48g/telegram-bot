@@ -1,7 +1,6 @@
 import csv
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
-from keep_alive import keep_alive  # استيراد keep_alive
 
 TOKEN = "8029379653:AAEbOr4JLYD2whl--LSCwF8VzqddT_fLwhQ"
 
@@ -100,3 +99,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
